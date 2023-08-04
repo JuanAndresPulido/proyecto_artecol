@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sectionhome img{
+    margin: 2px;
+}
+
+.currentpage {
+    background-color: burlywood;
+}
+
+/*Aqui comienzan los estilos del Header */
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a img {
+    width: 20%;
+    margin: 8px;
+
+}
+header nav span {
+    display: flex;
+    justify-self: right;
+    justify-content: space-around;
+    
+}
+
+header nav span a {
+    font-size: 1.1rem;
+    width: 90px;
+    padding: 2px;
+    margin: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 1px;
+}
+
+/*Aqui terminan los estilos del Header */
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#2d3323
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section nav div {
+    text-decoration: none;
+}
+
+section nav div a {
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+#cuenta ul {
+    background-color: black;
+    list-style-type: none;
+
+} 
+
+#cuenta ul li a {
+    color: #23FD00;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    text-decoration: none;
+} 
+
+footer {
+    background-color: rgb(243, 147, 130);
+}
+
+footer img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.videos_maestros {
+    margin: 20px;
+}
+
+/*Aqui comienzan los estilos de menu PRODUCTOS */
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4,80px);
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 3px solid black
+}
+
+.grid-item {
+    border: 1px  solid black
+}
+.first-item{
+    grid-column: 1/4;
+    background-color: #23FD00;
+}
+.fotos_productos {
+    size: 3rem;
+}
