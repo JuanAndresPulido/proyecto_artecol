@@ -121,3 +121,8 @@ footer img {
 .fotos_productos {
     size: 3rem;
 }
+
+.fotos_oficios {
+    width: 20%;
+    margin: 3px;    
+}
